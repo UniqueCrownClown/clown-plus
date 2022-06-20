@@ -1,0 +1,17 @@
+{
+	"name": "effect",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"gulp-autoprefixer": "^8.0.0",
+		"vue": "^3.2.33"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^2.3.3",
+		"vite": "^2.9.9"
+	}
+}
