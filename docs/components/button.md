@@ -4,6 +4,6 @@
 
 ```vue
 <template>
-	<IButton>超级简单的按钮实例</IButton>
+	<cl-button>超级简单的按钮实例</cl-button>
 </template>
 ```

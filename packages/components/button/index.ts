@@ -1,10 +1,10 @@
 import type { App } from 'vue'
-import IButton from './src/index.vue'
+import ClButton from './src/index.vue'
 import type { SFCWithInstall } from '../../types'
 
-IButton.install = (app: App) => {
-	app.component(IButton.name, IButton)
+ClButton.install = (app: App) => {
+	app.component(ClButton.name, ClButton)
 }
 
-const InMeAccordionItem: SFCWithInstall<typeof IButton> = IButton // 增加类型
+const InMeAccordionItem: SFCWithInstall<typeof ClButton> = ClButton // 增加类型
 export default InMeAccordionItem

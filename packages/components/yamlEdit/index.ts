@@ -1,10 +1,10 @@
 import type { App } from 'vue'
-import yamlEdit from './src/index.vue'
+import clYamlEdit from './src/index.vue'
 import type { SFCWithInstall } from "../../types";
 
-yamlEdit.install = (app: App) => {
-	app.component(yamlEdit.name, yamlEdit)
+clYamlEdit.install = (app: App) => {
+	app.component(clYamlEdit.name, clYamlEdit)
 }
 
-const _yamlEdit: SFCWithInstall<typeof yamlEdit> = yamlEdit // 增加类型
-export default _yamlEdit
+const _clYamlEdit: SFCWithInstall<typeof clYamlEdit> = clYamlEdit // 增加类型
+export default _clYamlEdit

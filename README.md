@@ -127,6 +127,10 @@ npm run commit
 └── typings
 ```
 
+## 组件列表
+- button
+- yamlEdit
+
 ## 参考
 
 https://github.com/SuperCuteXiaoSi/xiaosiCommitLib

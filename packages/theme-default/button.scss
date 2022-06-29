@@ -1,3 +1,8 @@
 .mu_Button {
-	background: red;
+	background: transparent;
+	height: 32px;
+	outline: none;
+	border:1px solid #ccc;
+	cursor: pointer;
+	border-radius: 4px;
 }

@@ -1,6 +1,6 @@
-import IButton from './components/button';
-import YamlEdit from './components/yamlEdit';
-export { IButton, YamlEdit };
+import ClButton from './components/button';
+import clYamlEdit from './components/yamlEdit';
+export { ClButton, clYamlEdit };
 declare const _default: {
     length: number;
     toString(): string;
@@ -19,7 +19,7 @@ declare const _default: {
     unshift(...items: any[]): number;
     indexOf(searchElement: any, fromIndex?: number | undefined): number;
     lastIndexOf(searchElement: any, fromIndex?: number | undefined): number;
-    every<S extends any>(predicate: (value: any, index: number, array: any[]) => value is S, thisArg?: any): this is S[];
+    every<S extends any>(predicate: (value: any, index: number, array: any[]) => value is S, thisArg?: any): boolean;
     every(predicate: (value: any, index: number, array: any[]) => unknown, thisArg?: any): boolean;
     some(predicate: (value: any, index: number, array: any[]) => unknown, thisArg?: any): boolean;
     forEach(callbackfn: (value: any, index: number, array: any[]) => void, thisArg?: any): void;

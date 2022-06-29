@@ -1,9 +1,9 @@
 import type { App } from 'vue'
 
-import IButton from './components/button'
-import YamlEdit from './components/yamlEdit'
+import ClButton from './components/button'
+import clYamlEdit from './components/yamlEdit'
 
-const components: any[] = [IButton,YamlEdit]
+const components: any[] = [ClButton,clYamlEdit]
 /**
  * 组件注册
  * @param {App} app Vue 对象
@@ -13,7 +13,7 @@ const install = function (app: App) {
 	components.forEach((component) => app.component(component.name, component))
 }
 
-export { IButton,YamlEdit }
+export { ClButton,clYamlEdit }
 
 export default {
 	install,

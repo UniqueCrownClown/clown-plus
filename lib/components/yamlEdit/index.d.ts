@@ -1,4 +1,4 @@
-import yamlEdit from './src/index.vue';
+import clYamlEdit from './src/index.vue';
 import type { SFCWithInstall } from "../../types";
-declare const _yamlEdit: SFCWithInstall<typeof yamlEdit>;
-export default _yamlEdit;
+declare const _clYamlEdit: SFCWithInstall<typeof clYamlEdit>;
+export default _clYamlEdit;

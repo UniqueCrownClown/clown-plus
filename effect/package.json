@@ -7,11 +7,15 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"element-plus": "^2.2.6",
 		"gulp-autoprefixer": "^8.0.0",
+		"unplugin-vue-define-options": "^0.6.1",
 		"vue": "^3.2.33"
 	},
 	"devDependencies": {
 		"@vitejs/plugin-vue": "^2.3.3",
+		"unplugin-auto-import": "^0.8.8",
+		"unplugin-vue-components": "^0.19.6",
 		"vite": "^2.9.9"
 	}
 }

@@ -5,6 +5,10 @@ import { readdirSync, statSync } from 'fs'
 import { resolve } from 'path'
 import path from 'path'
 const output = resolve(__dirname, '../lib')
+// import AutoImport from 'unplugin-auto-import/vite'
+// import Components from 'unplugin-vue-components/vite'
+// import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import DefineOptions from 'unplugin-vue-define-options/rollup'
 
 function getAllDirbyFilename(dir, outDir = null) {
 	let dirPath = path.resolve(__dirname, dir)
@@ -20,10 +24,17 @@ function getAllDirbyFilename(dir, outDir = null) {
 
 			return resultArr.push({
 				input: `${dirPath}/${file}`,
-				external: ['vue'],
+				external: ['vue', 'element-plus'],
 				plugins: [
 					nodeResolve(),
+					DefineOptions(),
 					vue(),
+					// AutoImport({
+					// 	resolvers: [ElementPlusResolver()],
+					// }),
+					// Components({
+					// 	resolvers: [ElementPlusResolver()],
+					// }),
 					typescript({
 						tsconfigOverride: {
 							compilerOptions: {

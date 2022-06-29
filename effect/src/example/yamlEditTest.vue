@@ -1,8 +1,3 @@
-# yamlEdit 文档
-
-:::demo 测试一下yaml的可视化编辑。
-
-```vue
 <template>
 	<div>
 		<el-row class="mb-4">
@@ -10,8 +5,14 @@
 		</el-row>
 	</div>
 </template>
-<script lang="ts" setup>
+<script>
+export default {
+	name: 'clYamlEditTest',
+}
+</script>
+<script setup>
 import { onMounted, ref, unref } from 'vue'
+import { clYamlEdit } from '../../../lib/index'
 const combineData = ref({})
 const clYamlEditRef = ref()
 const defineData = {
@@ -131,4 +132,3 @@ onMounted(() => {
 	combineData.value = unref(clYamlEditRef).initData(defineData, yamlData)
 })
 </script>
-```
