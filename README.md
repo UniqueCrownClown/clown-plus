@@ -11,12 +11,11 @@
 
 ## 准备
 
-- [node](http://nodejs.org/) 和 [git](https://git-scm.com/) -项目开发环境
 - [Vite](https://cn.vitejs.dev/) - 熟悉 vite 特性
 - [Vue3](https://v3.cn.vuejs.org/) - 熟悉 Vue 基础语法
 - [Es6+](http://es6.ruanyifeng.com/) - 熟悉 es6 基本语法
 - [VitePress](https://vuepress.vuejs.org/) - 熟悉 VitePress 基本使用
-- [element-push](https://element-plus.gitee.io/#/zh-CN/) - ui 基本使用
+- [element-plus](https://element-plus.gitee.io/#/zh-CN/) - ui 基本使用
 
 ## 安装使用
 
