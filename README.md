@@ -20,13 +20,7 @@
 
 ## 安装使用
 
-- 获取项目代码（https or ssh）
-
-```bash
-git clone https://github.com/SuperCuteXiaoSi/xiaosiCommitLib.git
-
-git clone git@github.com:SuperCuteXiaoSi/xiaosiCommitLib.git
-```
+````
 
 - 安装依赖
 
@@ -36,7 +30,7 @@ npm install
 # 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
 # 如果下载依赖慢可以使用淘宝镜像源安装依赖
 npm install --registry=https://registry.npm.taobao.org
-```
+````
 
 ### Developer
 
@@ -128,6 +122,7 @@ npm run commit
 ```
 
 ## 组件列表
+
 - button
 - yamlEdit
 
